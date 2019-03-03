@@ -1,3 +1,5 @@
+require 'pry'
+
 def roll_call_dwarves(names)
   names.each_with_index do |item, index|
     puts "#{index + 1}. #{item}"
@@ -9,7 +11,7 @@ def summon_captain_planet(planeteer_calls)
     n.capitalize << "!"
   end
 end
-bining.pry
+binding.pry
 def long_planeteer_calls# code an argument here
   # Your code here
 end
